@@ -3,12 +3,7 @@ using namespace std;
 
 #define nline	"\n"
 
-void c_p_c()
-{
-	ios::sync_with_stdio(0);
-	cin.tie(0);
-	cout.tie(0);
-}
+void c_p_c() { ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);}
 
 int main()
 {
@@ -25,5 +20,6 @@ int main()
 			n /= 2;
 		cout << n << " ";
 	}
+
 	return 0;
 }
